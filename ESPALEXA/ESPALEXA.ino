@@ -1,17 +1,17 @@
  
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
-#define RELAY_PIN_1 0
-#define RELAY_PIN_2 5
+#define RELAY_PIN_1 0 // PIN FOR LAMP_1
+#define RELAY_PIN_2 5 // PIN FOR LAMP_2
 #include "fauxmoESP.h"
 
 #define SERIAL_BAUDRATE 115200
 
-#define WIFI_SSID "KATANY"
-#define WIFI_PASS "neonnextpassword"
+#define WIFI_SSID "SSID" //change SID
+#define WIFI_PASS "PASSWORD" // change PASSWORD
 
-#define LAMP_1 "Bed Lights"
-#define LAMP_2 "Main Light"
+#define LAMP_1 "Bed Lights" //
+#define LAMP_2 "Main Light" //
 
 fauxmoESP fauxmo;
 
